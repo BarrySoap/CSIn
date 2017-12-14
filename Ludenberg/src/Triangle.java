@@ -1,15 +1,17 @@
-
 public class Triangle {
+	
+	public static void DrawTriangle(int size) {
+		// Start the triangle as an empty string
+		String tree = "";
+		
+		for (int i = 0; i < size; i++) {
+			tree += '*';
+			System.out.println(tree);
+		}
+	}
 
 	public static void main(String[] args) {
-		// Start the triangle as an empty string
-		String triangle = "";
-		
-		// Iterate 5 times, adding an asterisk at the end of each line
-		for (int i = 0; i < 5; i++) {
-			triangle += '*';
-			// System.out.println will separate each iteration
-			System.out.println(triangle);
-		}
+		int n = 10;
+		DrawTriangle(n);
 	}
 }
