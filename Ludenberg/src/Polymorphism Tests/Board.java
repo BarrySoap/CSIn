@@ -6,6 +6,4 @@ public class Board extends Piece
 	Piece bishop = new Bishop();
 	Piece knight = new Knight();
 	Piece pawn = new Pawn();
-	
-	
 }
