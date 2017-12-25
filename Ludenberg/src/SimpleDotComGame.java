@@ -3,7 +3,7 @@ public class SimpleDotComGame {
 
 	public static void main(String[] args) {
 		
-		int numOfGuesses = 0;
+		/*int numOfGuesses = 0;
 		SimpleDotCom simp = new SimpleDotCom();
 		GameHelper helper = new GameHelper();
 		int randStart = (int)(Math.random() * 5);
@@ -23,6 +23,6 @@ public class SimpleDotComGame {
 				isAlive = false;
 				System.out.println("You took " + numOfGuesses + " guesses.");
 			}
-		}
+		}*/
 	}
 }
