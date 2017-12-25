@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="Battleships Text Game/|Battleships Text Game/" kind="src" path="src"/>
+	<classpathentry excluding="Battleships Text Game/|Battleships Text Game/|Polymorphism Tests/|Polymorphism Tests/" kind="src" path="src"/>
 	<classpathentry kind="src" path="src/Battleships Text Game"/>
+	<classpathentry kind="src" path="src/Polymorphism Tests"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
