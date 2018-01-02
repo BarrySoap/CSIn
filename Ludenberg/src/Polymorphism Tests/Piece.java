@@ -1,4 +1,4 @@
-abstract class Piece 
+abstract class Piece
 {
 	private int xPos;
 	private int yPos;
