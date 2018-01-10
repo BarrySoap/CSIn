@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Board extends Piece
+public final class Board extends Piece
 {
 	public static void main(String[] args) 
 	{
