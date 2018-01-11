@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 
 public final class Board extends Piece
 {
@@ -6,12 +7,15 @@ public final class Board extends Piece
 	
 	private Board() {}
 	
-	public static Board getInstance() {
+	public static Board getInstance() 
+	{
 		return instance;
 	}
 	
 	public static void main(String[] args) 
 	{
+		System.out.println("The current date is: " + String.format("%tc", new Date()));
+		
 		ArrayList<Piece> whitePieces = new ArrayList<>();
 		ArrayList<Piece> blackPieces = new ArrayList<>();
 		BoardHelper helper = new BoardHelper();
